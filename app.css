@@ -1,0 +1,40 @@
+	header {
+		background-color: #003F87;
+		color: #FFFFFF;
+		padding: 20px;
+		text-align: center;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 3em;
+		font-weight: bold;
+	}
+
+	.container {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 20px;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	p {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+	ul {
+		margin-top: 0;
+		margin-bottom: 10px;
+		padding-left: 20px;
+	}
+
+	li {
+		margin-bottom: 5px;
+	}
+</style>
