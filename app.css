@@ -1,40 +1,94 @@
-	header {
-		background-color: #003F87;
-		color: #FFFFFF;
-		padding: 20px;
-		text-align: center;
-	}
+/* Reset the default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-	h1 {
-		margin: 0;
-		font-size: 3em;
-		font-weight: bold;
-	}
+/* Set a background color for the entire page */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
 
-	.container {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 20px;
-	}
+/* Add a top margin to the header */
+header {
+  margin-top: 20px;
+}
 
-	h2 {
-		font-size: 1.5em;
-		margin-top: 20px;
-		margin-bottom: 10px;
-	}
+/* Style the navigation links */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
 
-	p {
-		margin-top: 0;
-		margin-bottom: 10px;
-	}
+nav li {
+  margin-right: 20px;
+}
 
-	ul {
-		margin-top: 0;
-		margin-bottom: 10px;
-		padding-left: 20px;
-	}
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
 
-	li {
-		margin-bottom: 5px;
-	}
-</style>
+nav a:hover {
+  color: #666;
+}
+
+/* Style the main sections of the page */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+/* Style the links in the project section */
+section#projects a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+section#projects a:hover {
+  color: #666;
+}
+
+/* Style the contact section */
+section#contact ul {
+  display: flex;
+  flex-direction: column;
+}
+
+section#contact li {
+  margin-bottom: 10px;
+}
+
+section#contact li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+section#contact li a:hover {
+  color: #666;
+}
+
